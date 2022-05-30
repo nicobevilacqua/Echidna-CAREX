@@ -1,0 +1,17 @@
+corpusDir: "corpus"
+estimateGas: true
+seqLen: 1
+#filterBlacklist: false
+#filterFunctions: [
+  # "Test.testFrom128x128(int256)",
+  #"Test.testMul(int128,int128)",
+  #"Test.testMuli(int128,int256)",
+  #"Test.testMulu(int128,uint256)",
+ #"Test.testDiv(int128,int128)", 
+ #"Test.testDivAndMul(int128,int128)",
+ #"Test.testDivi(int256,int256)"
+  # "Test.testTo128x128(int128)"
+  # "Test.testAdd(int128,int128,int128)"
+#]
+testLimit: 100000
+testMode: "assertion"
